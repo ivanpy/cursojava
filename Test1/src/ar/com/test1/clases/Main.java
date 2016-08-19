@@ -1,7 +1,5 @@
 package ar.com.test1.clases;
 
-import javax.swing.JOptionPane;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,6 +8,9 @@ public class Main {
 		m.sumarDosNumeros(15, 15);
 		int resultado = m.sumarNumeros(350, 489);
 		System.out.println("resultado, "+resultado);
+		Operacion sum = new Operacion(1250,27000);
+		System.out.println("llamo a mi metodo suma "+sum.calculadora());
+		
 	}
 	/**
 	 * Este metodo sumo dos numeros
